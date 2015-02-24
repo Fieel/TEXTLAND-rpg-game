@@ -1,3 +1,6 @@
+**/ I used this file to keep track of the various cases that can happen to the player, so that i can have a better view of the whole project. 
+In other words i used this to avoid creating a game too unbalanced./**
+
 //Game.village();
 1
 	+ food
@@ -29,7 +32,7 @@
 	- sanity
 	- HP
 
-\\Game.forest();
+//Game.forest();
 
 1
 	+ food
@@ -152,7 +155,7 @@
 	- stamina
 	- sanity
 
-Game.plains();
+//Game.plains();
 
 1
 	- food
@@ -208,7 +211,7 @@ Game.plains();
 	- stamina
 	- sanity
 
-Game.swamp();
+//Game.swamp();
 
 1
 	- food
@@ -237,7 +240,7 @@ Game.swamp();
 	- stamina
 	- HP
 
-Game.crypta();
+//Game.crypta();
 
 1
 	- food
@@ -267,7 +270,7 @@ Game.crypta();
 	- stamina
 	- sanity
 
-Game.countryside();
+//Game.countryside();
 
 1
 	- food
