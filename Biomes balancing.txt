@@ -1,0 +1,296 @@
+//Game.village();
+1
+	+ food
+	+ water
+	+ stamina
+	+ sanity
+	+ HP
+2
+	- food
+	- water
+	+ stamina
+	- sanity
+3
+	- food
+	- water
+	- stamina
+	- sanity
+	- HP
+4
+	- food		- food
+	- water		- water
+	- stamina	- stamina
+	- sanity
+	- HP
+5
+	- food		- food
+	- water		- water
+	- stamina	- stamina
+	- sanity
+	- HP
+
+\\Game.forest();
+
+1
+	+ food
+	+ water
+	+ stamina
+	+ sanity
+2
+	+ food		- food	
+	- water		- water
+	- stamina	- stamina
+	- HP
+3
+	+ food		- food
+	- water		- waater
+	- stamina	- stamina
+	- sanity	
+	- HP
+4
+	+ food
+	+ water
+	+ stamina
+	+ sanity
+	+ HP
+5
+	- food
+	- water
+	- stamina
+	- sanity		
+
+//Game.river();
+
+1
+	+ water
+	- food
+	- sanity
+2
+	+ food
+	+ water
+	+ stamina
+3
+	+ food
+	+ water
+	+ stamina
+	+ sanity
+	+ HP
+4
+	- food		- food
+	- stamina	- stamina
+	- sanity	
+	- HP
+5
+	- food		- food
+	- water		
+	- stamina	- stamina
+	- sanity	
+	- HP		
+
+
+//Game.cave();
+
+1
+	
+	- food
+	- water
+	- stamina
+	- sanity
+	- HP
+2
+	- food
+	+ water
+	+ stamina
+	+ sanity
+3
+	+ food
+	+ water
+	+ stamina
+	+ sanity
+4
+	+ food
+	+ water
+	+ sanity
+	+ stamina
+5
+	- food		- food
+	- water		- water
+	- stamina	- stamina
+	- sanity
+	- HP
+
+
+//Game.castle();
+
+1
+	+ food		- food
+	+ water		- water
+	+ sanity	- sanity
+	+ stamina	- stamina
+	+ HP		- HP
+	
+2
+	- food
+	- water
+	- stamina
+	- sanity
+	- HP
+3
+	- food		+ food
+	- water		+ water
+	- stamina	- stamina
+	- sanity
+	- HP
+4
+	- food
+	- water
+	+ stamina
+	+ sanity
+5
+	- food
+	- water
+	- stamina
+	- sanity
+
+Game.plains();
+
+1
+	- food
+	- water
+	- stamina
+	- sanity
+2
+	+ food
+	+ water
+	+ stamina
+	+ sanity
+3
+	- food
+	- water
+	- stamina
+	- sanity
+4
+	- food
+	- water
+	- stamina
+	- sanity
+	- HP
+5
+	- food
+	- water
+	- stamina
+
+//Game.mountain();
+
+1
+	- food
+	- water
+	- stamina
+	- sanity
+	- HP
+2
+	- food
+	- water
+	- stamina
+	- sanity
+3
+	+ food
+	+ water
+	+ stamina
+4
+	+ food
+	+ water
+	- stamina
+	- sanity
+5
+	- food
+	- water
+	- stamina
+	- sanity
+
+Game.swamp();
+
+1
+	- food
+	- water
+	- stamina
+	- sanity
+2
+	- food
+	- water
+	- stamina
+	- sanity
+	- HP
+3
+	- food
+	- water
+4
+	- food		- food
+	- water		- water
+	- sanity	
+	+ stamina	- stamina
+	- HP
+5
+	- food
+	- water
+	- sanity
+	- stamina
+	- HP
+
+Game.crypta();
+
+1
+	- food
+	- water
+	- stamina
+	- sanity
+2
+	- food
+	- water
+	- stamina
+	- sanity
+3
+	- food
+	- water
+	- stamina
+	- sanity
+	- HP
+4
+	- food
+	- water
+	- stamina
+	- sanity
+	- HP
+5
+	- food
+	- water
+	- stamina
+	- sanity
+
+Game.countryside();
+
+1
+	- food
+	- water
+	- stamina
+2
+	+ food
+	+ water
+	+ stamina
+	+ sanity
+3
+	- food
+	- water
+	- stamina
+	- sanity
+	- HP
+4
+	- food
+	+ water
+	- stamina
+	+ sanity
+5
+	+ food
+	+ water
+	- stamina
+	- sanity
