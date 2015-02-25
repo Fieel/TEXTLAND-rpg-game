@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TextLand-Android</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Textland</string>
+    <string name="name">You wake up in the middle of a sunny day. There\'s a nice breeze being transported by the wind.\n
+					You can\'t remember anything. You just woke up here and nothing else.\n
+					After some minutes your memory starts to come back. You start to distinguish the details about the environment around you.\n
+					Apparently you are located at the center of a mysterious world and your only hope is to get as far as possible.\n
+					After some minutes your memory starts to come back and you try to remember your name:</string>
+    <string name="cont">Continue</string>
+    <string name="error_name">Please enter a valid alphanumeric name.</string>
+    <string name="okay">Okay</string>
+    <string name="constant_username">USERNAME</string>
+    <string name="your_name_is">Your name is %1$s; game will continue soon!</string>
+</resources>
