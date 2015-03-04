@@ -4,6 +4,7 @@
 
     <application
         android:allowBackup="true"
+        android:name=".App"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
@@ -16,9 +17,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MaleFemaleActivity"
+            android:label="@string/app_name"
+            />
+        <activity
+            android:name=".TempActivity"
+            android:label="@string/app_name"
+            />
 
-        <activity android:name=".TempActivity"
-            android:label="@string/app_name"/>
+        <activity
+            android:name=".LoadingScreen"
+            android:label="@string/app_name"
+            />
+
+        <activity android:name=".NameActivity"
+            android:label="@string/app_name"
+            />
+
     </application>
 
 </manifest>
