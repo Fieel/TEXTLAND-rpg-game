@@ -17,3 +17,13 @@ There is a map and there are 10 different biomes: Village, forest, river, cave, 
 
 Every different biome stores 5 different cases, so if you end up two times in a village this won't mean that the same scene will pop up
 
+***************************GAME-STRUCTURE********************************
+The game uses 6 classes: Character.java stores everything about the player's character, stats, map position and stat increase-reduce methods.
+
+Game.java stores the main game cycle. See comments for more infos.
+
+Main.java stores the menus, like the opening screen or the game-over screens.
+
+Map.java stores data regarding the map (or game world), which is a simple 10x10 array.
+
+Variables.java stores general variables.
