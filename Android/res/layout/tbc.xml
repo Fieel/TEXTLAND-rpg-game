@@ -1,61 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <RelativeLayout
-        android:id="@+id/tbc_inner_rl"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            android:id="@+id/tbc_tv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toLeftOf="@+id/tbc_days_tv"
-            android:text="@string/start_moving"
-            android:textSize="20sp"
-            />
-
-        <Button
-            style="@style/button_style"
-            android:id="@+id/tbc_left_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/left"
-            android:layout_toLeftOf="@+id/tbc_forward_btn"
-            android:layout_below="@+id/tbc_forward_btn"
-            />
-        <Button
-            style="@style/button_style"
-            android:id="@+id/tbc_right_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/right"
-            android:layout_below="@+id/tbc_forward_btn"
-            android:layout_toRightOf="@id/tbc_forward_btn"
-            />
-        <Button
-            style="@style/button_style"
-            android:id="@+id/tbc_forward_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/forward"
-            android:layout_below="@+id/tbc_tv"
-            android:layout_centerHorizontal="true"
-            />
-
-        <TextView
-            android:id="@+id/tbc_days_tv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/days_cnt"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:textSize="20sp"
-            android:background="@drawable/male_female_unselected_background"
-            android:padding="5dp"
-            />
-    </RelativeLayout>
-
-</ScrollView>
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tbc_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/your_name_is"
+        />
+</RelativeLayout>
