@@ -15,20 +15,19 @@ public class TempActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tbc);
 
-        final String gameName = StaticData.getName();
-        final boolean gameMale = StaticData.isMale();
+        final Bundle b = getIntent().getExtras();
+        String name = "";
+        final String constantUsername = getResources().getString(R.string.constant_username);
+        final SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+
+        if(b != null && b.containsKey(constantUsername)) {
+            name = b.getString(constantUsername);
+        }
+        else {
+            name = prefs.getString(constantUsername, "");
+        }
 
         final TextView tv = (TextView) findViewById(R.id.tbc_tv);
-        tv.setText(String.format(getResources().getString(R.string.your_name_is),
-                    gameName,
-                    gameMale ? getResources().getString(R.string.male) : getResources().getString(R.string.female)
-                ));
-        tv.setText(getResources().getString(R.string.start_moving));
-
-
-    }
-
-    private static void renderCurrentEnv() {
-        StaticData.getEnvironment();
+        tv.setText(String.format(getResources().getString(R.string.your_name_is), name));
     }
 }

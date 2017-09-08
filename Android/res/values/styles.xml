@@ -5,16 +5,4 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="save_file_name">
-        <item name="android:textSize">30sp</item>
-    </style>
-
-    <style name="male_female_text">
-        <item name="android:textSize">20sp</item>
-    </style>
-
-    <style name="button_style">
-        <item name="android:textSize">18sp</item>
-    </style>
-
 </resources>
